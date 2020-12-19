@@ -1,0 +1,19 @@
+.skill-card-title{
+    color: #1E1E24;
+    margin-top: 5px;
+}
+
+.skill-container{
+    margin: 5px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.skill{
+    display: inline-block;
+    margin: 4px 5px;
+    padding: 3px 15px;
+    background-color: #1E1E24;
+    border-radius: 32px;
+    color: white;
+}

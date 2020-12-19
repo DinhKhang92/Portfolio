@@ -1,0 +1,23 @@
+/* bar */
+.glass-bar{
+    width: 60px;
+    height: 6px;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+    background: linear-gradient(124.68deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.380469) 6.77%, #FFFFFF 100%);
+    backdrop-filter: blur(128px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+/* chapter */
+.chapter{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+
+.chapter-container{
+    margin-bottom: 20px;
+}

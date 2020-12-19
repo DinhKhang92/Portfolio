@@ -1,0 +1,27 @@
+.project-img{
+    /* max-height: 240px; */
+    width: 100%;
+    margin: auto;
+    margin-bottom: 12px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.project-type{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 18px;
+}
+
+.project-title{
+    color: white;
+    margin: 10px auto;
+    margin-bottom: 10px;
+}
+
+.project-description{
+    color: white;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
