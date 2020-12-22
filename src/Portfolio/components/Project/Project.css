@@ -25,3 +25,17 @@
     margin-bottom: 20px;
     font-size: 14px;
 }
+
+@media only screen and (min-width: 600px){
+    .project-container{
+        padding: 15px;
+    }
+
+    .project-title{
+        font-size: 20px;
+    }
+
+    .project-description{
+        font-size: 16px;
+    }
+}

@@ -4,7 +4,7 @@ import "./SkillCard.css"
 
 class SkillCard extends React.Component{
     render(){
-        const skills = this.props.skills.map(skill => <li className="skill">{skill}</li>)
+        const skills = this.props.skills.map(skill => <li key={skill} className="skill">{skill}</li>)
         return(
             <div>
                 <div className="glass-card flex-container">

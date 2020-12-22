@@ -1,12 +1,11 @@
 import React from "react";
 
-import "./App.css"
-
 import Header from "../Header/Header"
 import Home from "../Home/Home"
 import Portfolio from "../Portfolio/Portfolio"
 import Skills from "../Skills/Skills"
 import Contact from "../Contact/Contact"
+import Footer from "../Footer/Footer"
 
 
 class App extends React.Component{
@@ -16,8 +15,9 @@ class App extends React.Component{
         <Header />
         <Home />
         <Portfolio />
-        <Skills />
+        {/* <Skills />
         <Contact />
+        <Footer /> */}
       </div>
     );
   }

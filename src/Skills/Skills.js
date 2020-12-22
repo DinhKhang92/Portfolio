@@ -5,6 +5,8 @@ import SkillCard from "./components/SkillCard/SkillCard"
 
 import skillData from "./data/skillData";
 
+import './Skills.css'
+
 class Skills extends React.Component{   
     render(){
         const skillCards = skillData.map(skillCard => <SkillCard 
@@ -17,7 +19,9 @@ class Skills extends React.Component{
         return(
             <div className="content-container new-section">
                 <Chapter chapter="Skills"/>
-                {skillCards}
+                <div className="skills-grid-container">
+                    {skillCards}
+                </div>
             </div>
         )
     }

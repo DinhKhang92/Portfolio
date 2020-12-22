@@ -17,3 +17,17 @@
     border-radius: 32px;
     color: white;
 }
+
+@media only screen and (min-width: 600px){
+    .skill-container{
+        margin: 5px 15px;
+    }
+
+    .skill-card-title{
+        font-size: 18px;
+    }
+
+    .skill{
+        font-size: 16px;
+    }
+}

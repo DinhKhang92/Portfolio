@@ -1,3 +1,8 @@
+.content-container{
+    width: calc(100% - 2*22px);
+    margin: 0 auto; 
+}
+
 /* profile-picture */
 .profile-picture{
     margin: 33px 0;
@@ -53,4 +58,127 @@
     text-align: center;
     color: #1E1E24;
     font-weight: bold;
+}
+
+.spacer-navbar{
+    margin-top: 65px !important;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px){
+    .content-container{
+        width: calc(100% - 2*22px);
+        margin: 0 auto; 
+    }
+
+    /* profile-picture */
+    .profile-picture{
+        margin: 33px 0;
+        position: static;
+        left: initial;
+        transform: initial;
+        width: 264px;
+        height: 264px;
+
+        background: url("./assets/khang.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 264px;
+    }
+
+    .home-grid-center-content{
+        margin-top: calc(264px - 212px);
+        width: 50%;
+    }
+
+    .home-flex-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .profession{
+        font-size: 26px;
+    }
+
+    .profession-description{
+        font-size: 17px;
+    }
+
+    .download-cv-button{
+        width: 200px;
+        height: 40px;
+    }
+
+    .cv-button-text{
+        font-size: 18px;
+    }
+
+    .home-grid-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .content-container{
+        max-width: 1480px;
+        height: calc(100vh - 50px);
+    }
+
+    .home-flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* profile-picture */
+    .profile-picture{
+        margin: 33px 0;
+        position: static;
+        left: initial;
+        transform: initial;
+        width: 335px;
+        height: 335px;
+
+        background: url("./assets/khang.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 264px;
+    }
+
+    .home-grid-center-content{
+        margin-top: calc(405px - 339px);
+        width: 30%;
+        margin-left: 90px;
+    }
+    
+    .profession{
+        font-size: 34px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .profession-description{
+        font-size: 18px;
+    }
+
+    .download-cv-button{
+        width: 200px;
+        height: 40px;
+    }
+
+    .cv-button-text{
+        font-size: 18px;
+    }
+
+    .home-grid-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 72px;
+    }
 }

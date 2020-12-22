@@ -39,3 +39,37 @@
     color: #1E1E24;
 }
 
+@media only screen and (min-width: 600px){
+    .icon{
+        font-size: 70px;
+    }
+
+    .glass-card-title{
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .glass-card-description{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .glass-card{
+        width: 385px;
+        margin: 0px 19px;
+    }
+
+    .icon{
+        font-size: 76px;
+    }
+
+    .glass-card-title{
+        font-size: 20px;
+    }
+
+    .glass-card-description{
+        margin: 0 40px;
+        font-size: 18px;
+    }
+}

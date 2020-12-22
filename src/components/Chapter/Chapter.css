@@ -21,3 +21,19 @@
 .chapter-container{
     margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 600px){
+    .glass-bar{
+        width: 90px;
+    }
+
+    .chapter{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .chapter-container{
+        margin-bottom: 72px;
+    }
+}

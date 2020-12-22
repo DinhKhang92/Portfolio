@@ -1,0 +1,11 @@
+.new-section{
+    margin-top: 80px !important;
+}
+
+@media only screen and (min-width: 600px){
+    .portfolio-grid-container{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 50% 50%;
+    }
+}
