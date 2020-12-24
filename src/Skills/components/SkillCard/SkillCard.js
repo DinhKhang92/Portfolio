@@ -7,7 +7,7 @@ class SkillCard extends React.Component{
         const skills = this.props.skills.map(skill => <li key={skill} className="skill">{skill}</li>)
         return(
             <div>
-                <div className="glass-card flex-container">
+                <div className="glass-card skill-card-container flex-container">
                     <span className="material-icons icon">
                         {this.props.icon}
                     </span> 

@@ -61,7 +61,27 @@
 }
 
 .spacer-navbar{
-    margin-top: 65px !important;
+    margin-top: 65px;
+}
+
+
+.home-grid-center-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.download-cv{
+    color:#1E1E24;
+    background: linear-gradient(124.68deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.380469) 6.77%, #FFFFFF 100%);
+    backdrop-filter: blur(128px);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 32px;
+    margin-bottom: 30px;
 }
 
 /* For tablets: */
@@ -69,6 +89,10 @@
     .content-container{
         width: calc(100% - 2*22px);
         margin: 0 auto; 
+    }
+
+    .spacer-navbar{
+        margin-top: 75px;
     }
 
     /* profile-picture */
@@ -87,6 +111,10 @@
     }
 
     .home-grid-center-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: calc(264px - 212px);
         width: 50%;
     }
@@ -120,12 +148,17 @@
         align-items: center;
         grid-template-columns: 50% 50%;
     }
+
+    .download-cv{
+        font-size: 16px;
+        padding: 6px 35px;
+    }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px){
     .content-container{
         max-width: 1480px;
-        height: calc(100vh - 50px);
+        /* min-height: calc(100vh - 50px); */
     }
 
     .home-flex-container{
@@ -150,6 +183,10 @@
     }
 
     .home-grid-center-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: calc(405px - 339px);
         width: 30%;
         margin-left: 90px;
@@ -169,6 +206,8 @@
     .download-cv-button{
         width: 200px;
         height: 40px;
+        cursor: pointer;
+        padding: 3px 15px;
     }
 
     .cv-button-text{
@@ -180,5 +219,14 @@
         justify-content: center;
         align-items: center;
         margin-top: 72px;
+    }
+
+    .landing-page-container{
+        min-height: calc(100vh - 50px);
+    }
+
+    .download-cv{
+        font-size: 18px;
+        padding: 7px 40px;
     }
 }

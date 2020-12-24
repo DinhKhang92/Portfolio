@@ -1,5 +1,6 @@
 .skill-card-title{
     color: #1E1E24;
+    /* color: white; */
     margin-top: 5px;
 }
 
@@ -19,6 +20,11 @@
 }
 
 @media only screen and (min-width: 600px){
+    .skill-card-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .skill-container{
         margin: 5px 15px;
     }
@@ -30,4 +36,20 @@
     .skill{
         font-size: 16px;
     }
+}
+
+@media only screen and (min-width: 769px){
+    .skill-card-title{
+        font-size: 20px;
+    }
+
+    .skill{
+        font-size: 18px;
+        padding: 4px 20px;
+    }
+
+    .skill-card-container{
+        min-height: 270px;
+    }
+
 }

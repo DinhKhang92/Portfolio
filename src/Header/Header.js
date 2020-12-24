@@ -6,7 +6,7 @@ class Header extends React.Component{
     render(){
         return(
             <div className="navbar">
-                <span className="material-icons"> menu </span>
+                <span className="material-icons" onClick={this.props.toggleDrawer}> menu </span>
             </div>
         )
     }

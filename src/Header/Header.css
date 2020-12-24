@@ -1,6 +1,6 @@
 .navbar{
     height: 50px;
-    background-color: white;
+    background-color: #1E1E24;
     vertical-align: center;
     display: flex;
     justify-content: flex-end;
@@ -11,13 +11,25 @@
     z-index: 100;
     left: 0;
     top: 0;
+    color: white;
 }
 
 .material-icons{
     font-size: 37px;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
+    .navbar{
+        height: 60px;
+        padding: 0 18px;
+    }
+
+    .material-icons{
+        font-size: 44px;
+    }
+}
+
+@media only screen and (min-width: 769px){
     .navbar{
         padding: 40px 40px 0 0;
         background-color: transparent;

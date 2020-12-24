@@ -39,3 +39,21 @@
         font-size: 16px;
     }
 }
+
+@media only screen and (min-width: 769px){
+    .project-img{
+        width: 100%;
+    }
+
+    .project-type{
+        font-size: 20px;
+    }
+
+    .project-title{
+        font-size: 24px;
+    }
+
+    .project-description{
+        font-size: 20px;
+    }
+}

@@ -35,6 +35,18 @@
     font-size: 14px;
 }
 
+.content-section{
+    margin-top: 80px;
+}
+
+a:visited{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 600px){
     .padding-horizontal{
         padding: 0 15px;
@@ -46,5 +58,21 @@
 
     .grey-text, .white-text, .grid-item, .heart-icon{
         font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 769px){
+
+    .section-title{
+        font-size: 24px;
+    }
+
+    .grey-text, .white-text, .heart-icon{
+        font-size: 18px;
+    }
+    
+    .grid-item{
+        padding: 4px 0;
+        font-size: 18px;
     }
 }

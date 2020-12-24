@@ -1,11 +1,25 @@
 .new-section{
-    margin-top: 80px !important;
+    margin-top: 80px;
+}
+
+.portfolio-grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-row-gap: 40px;
 }
 
 @media only screen and (min-width: 600px){
     .portfolio-grid-container{
-        display: grid;
-        justify-content: center;
         grid-template-columns: 50% 50%;
     }
+}
+
+@media only screen and (min-width: 769px){
+    .portfolio-grid-container{
+        grid-template-columns: 30% 30% 30%;
+        grid-column-gap: 3%;
+        grid-row-gap: 40px;
+    }
+
 }

@@ -4,19 +4,19 @@ import HomeCard from './components/HomeCard/HomeCard'
 import Chapter from '../components/Chapter/Chapter'
 import './Home.css'
 
+import CV from './assets/Lebenslauf.pdf'
+
 class Home extends React.Component{
     render(){
         return(
-            <div className="content-container spacer-navbar">
+            <div className="content-container spacer-navbar landing-page-container">
                 <Chapter chapter="Hi, I'm Khang Dinh"/>
                 <div className="home-flex-container">
                     <div className="profile-picture"></div>
                     <div className="home-grid-center-content">
                         <h1 className="profession">Software-Developer who loves challenges</h1>
                         <p className="profession-description">With experience in machine learning, mobile-app development and web-development</p>
-                        <div className="download-cv-button">
-                            <p className="cv-button-text">Download CV</p>
-                        </div>
+                        <a className="download-cv" href={CV} download="CV_Khang_Dinh.pdf">Download CV</a>
                     </div>
                 </div>
                 <div className="home-grid-container">

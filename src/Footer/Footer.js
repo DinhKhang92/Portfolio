@@ -5,7 +5,7 @@ import "./Footer.css"
 class Footer extends React.Component{
     render(){
         return(
-            <div className="content-container new-section footer">
+            <div className="content-container footer-section footer-container">
                 <p className="grey-text">
                     © 2020 — 2021 Khang Dinh. Made with <span className="material-icons heart-icon"> favorite </span> in Berlin, Germany.
                 </p>

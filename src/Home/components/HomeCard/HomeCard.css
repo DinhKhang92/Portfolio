@@ -6,7 +6,13 @@
     height: auto;
     margin: 20px auto;
 
-    background: linear-gradient(124.68deg, rgba(255, 255, 255, 0.380469) 0%, #FFFFFF 100%);
+    
+    background: linear-gradient(124.68deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.380469) 6.77%, #FFFFFF 100%);
+
+    /* background: linear-gradient(124.68deg, rgba(255, 255, 255, 0.075125), rgba(255, 255, 255, 0.25));
+    border: solid 4px linear-gradient(white, red);
+    background-clip: padding-box; */
+
     backdrop-filter: blur(128px);
     /* Note: backdrop-filter has minimal browser support */
 
@@ -16,6 +22,7 @@
 
 .glass-card-title{
     color: #1E1E24;
+    /* color: white; */
     text-transform: uppercase;
     margin-top: 5px;
 }
@@ -25,6 +32,7 @@
     margin: 0 10px;
     font-size: 14px;
     color: rgba(30, 30, 36, 0.85)
+    /* color: rgba(255, 255, 255, 0.85); */
 }
 
 .flex-container{
@@ -37,6 +45,7 @@
 .icon{
     font-size: 64px;
     color: #1E1E24;
+    /* color: white; */
 }
 
 @media only screen and (min-width: 600px){
@@ -54,7 +63,7 @@
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px){
     .glass-card{
         width: 385px;
         margin: 0px 19px;
